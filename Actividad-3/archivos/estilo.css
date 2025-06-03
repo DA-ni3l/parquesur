@@ -1,0 +1,116 @@
+/* Elegimos las letras que vamos a usar */
+body {
+  font-family: 'Mulish', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, .brand-font {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Fondo oscuro encima de la imagen principal */
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* Carrusel de imágenes */
+.carousel-item img {
+  object-fit: cover;
+  height: 500px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+/* Enlaces del pie de página */
+footer a:hover {
+  color: #f8d7da !important;
+}
+
+/* Botones cuando pasas el ratón */
+.btn-outline-light:hover {
+  background-color: white;
+  color: #dc3545;
+  border-color: white;
+}
+
+/* Vídeos que se adaptan a la pantalla */
+iframe {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Espacio arriba para el menú */
+body {
+  padding-top: 70px;
+}
+
+/* Para que el texto salga por encima de la imagen */
+.z-1 {
+  z-index: 2;
+}
+
+/* Arreglos para el carrusel */
+.carousel-inner > .carousel-item > img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+portada{
+  background-image: url(' https://madridinforma.eldiario.es/wp-content/uploads/empleo-cc-westfield-parquesur-madrid.jpg');
+  padding-top: 78px;
+}
+i{
+    box-shadow: 21px black
+}
+h2{
+    padding: 17px
+}
+#fotoportada{
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+video{
+    border-radius: 10px;
+}
+.logotipos {
+    width: 380px;
+}
+a:hover {
+    color: #ec0920;
+}
+.sombras {
+    box-shadow: 10px 19px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    border: #dc3545;
+    margin: 10px;
+    max-width: 380px;
+    border-radius: 5px;
+    max-height: 300px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"]  {
+    border: 2px solid #dc3545;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea {
+    border: 2px solid #dc3545 !important;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    
+    resize: none;
+}

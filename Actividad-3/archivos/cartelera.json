@@ -1,0 +1,38 @@
+[
+  {
+    "titulo": "Minecraft: The Movie",
+    "descripcion": "Bienvenido al mundo de Minecraft, donde la creatividad no sólo ayuda a crear, sino que es esencial para la supervivencia",
+    "imagen": "https://tickets-static-content.cinepolis.com/pimcore/3501/assets/Espaa/Tickets/Movies/UnaPeliculaDeMinecraft/Es/P_720X1022/resource.jpg",
+    "enlace": "https://www.cinesa.es/peliculas/una-pelicula-de-minecraft/HO00001976/"
+  },
+  {
+    "titulo": "Misión: Imposible - La Sentencia Final",
+    "descripcion": "Octava entrega de la franquicia Misión Imposible.",
+    "imagen": "https://tickets-static-content.cinepolis.com/pimcore/3986/assets/Espaa/Tickets/Movies/MisionImposibleSetenciaFinal/Es/mision_imposible_sentencia_720x1022_10/resource.jpg",
+    "enlace": "https://www.cinesa.es/peliculas/mision-imposible-sentencia-final/HO00002146/"
+  },
+  {
+    "titulo": "Thunderbolts",
+    "descripcion": "Un grupo de supervillanos es reclutado por el gobierno para misiones peligrosas, obligándolos a enfrentar los recovecos más oscuros de su pasado.",
+    "imagen": "https://tickets-static-content.cinepolis.com/pimcore/3747/assets/Espaa/Tickets/Movies/Thunderbolts/Es/Po_ster_720x1022px_4/resource.jpg",
+    "enlace": "https://cinepolis.com/es/detalle?cinema=rivas-h2o-madrid&movie=thunderbolts"
+  },
+  {
+    "titulo": "Lilo y Stitch",
+    "descripcion": "Remake en imagen real de Lilo & Stitch. Narra la historia de una niña hawaiana solitaria y un extraterrestre fugitivo que la ayuda a recomponer su familia rota.",
+    "imagen": "https://tickets-static-content.cinepolis.com/pimcore/3921/assets/Espaa/Tickets/Movies/LiloYStitch/Es/Po_ster_720x1022px_3_2__2/resource.jpg",
+    "enlace": "https://cinepolis.com/es/detalle?cinema=rivas-h2o-madrid&movie=amateur"
+  },
+  {
+    "titulo": "Destino Final: Lazos De Sangre",
+    "descripcion": "Destino Final: Lazos de Sangre, el nuevo capítulo de la sangrienta franquicia de enorme éxito de New Line Cinema, transporta al público a los inicios del retorcido sentido de la justicia de la Muerte.",
+    "imagen": "https://tickets-static-content.cinepolis.com/pimcore/4161/assets/Espaa/Tickets/Movies/DestinoFinalLazosDeSangre/Es/P_720X1022_5/resource.jpg",
+    "enlace": "https://www.cinesa.es/peliculas/destino-final-lazos-de-sangre/HO00002221/"
+  },
+  {
+    "titulo": "El casoplón",
+    "descripcion": "Toñi, Carlos y sus tres hijos están pasando el peor verano de sus vidas; sin vacaciones, encerrados en un piso de 50 metros cuadrados, ambos padres trabajando a tiempo completo… ",
+    "imagen": "https://tickets-static-content.cinepolis.com/pimcore/4321/assets/Espaa/Tickets/Movies/ElCasoplon/Es/720x1022/resource.png",
+    "enlace": "https://www.cinesa.es/peliculas/el-casoplon/HO00002128/"
+  }
+]

@@ -1,8 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Title</title>
-    </head>
-    <body></body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ocio - Westfield Parquesur</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+ <link rel="stylesheet" href="archivos/estilo.css">
+ <link rel="icon" href="https://res.cloudinary.com/westfielddg/image/upload/v1729788345/Westfield%20Website%20-%20Global%20Repository/01%20-%20CORPORATE%20ASSETS/Favicons%20Westfield%20global/Favicon-32x32_idvumv.ico">
+</head>
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-danger fs-3 brand-font" href="#">
+        <i class="fas fa-shopping-center me-2"></i><img alt="Logotipo Westfield Parquesur" loading="lazy" width="241" height="121" decoding="async" data-nimg="1" class="MainHeader_logo__e6Bul" style="color:transparent" srcset="https://res.cloudinary.com/westfielddg/image/upload/fl_sanitize/q_auto/v1742911107/Westfield%20Website%20-%20Global%20Repository/02%20-%20REGIONAL%20ASSETS/ES%20-%20Spain/Westfield%20Parquesur/Logos/W._Parquesur_white_250325.svg 1x, https://res.cloudinary.com/westfielddg/image/upload/fl_sanitize/q_auto/v1742911107/Westfield%20Website%20-%20Global%20Repository/02%20-%20REGIONAL%20ASSETS/ES%20-%20Spain/Westfield%20Parquesur/Logos/W._Parquesur_white_250325.svg 2x" src="https://res.cloudinary.com/westfielddg/image/upload/fl_sanitize/q_auto/v1742911107/Westfield%20Website%20-%20Global%20Repository/02%20-%20REGIONAL%20ASSETS/ES%20-%20Spain/Westfield%20Parquesur/Logos/W._Parquesur_white_250325.svg">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="tiendas.html">Tiendas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="restaurantes.html">Restaurantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="ocio.html">Ocio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="visitanos.html">Visítanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="aviso_legal.html">Aviso legal</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-danger text-white text-center py-5 ">
+    <div class="container portada">
+      <h1 class="display-4">Ocio</h1>
+      <p class="lead">Diversión para todas las edades en Westfield Parquesur</p>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalBowling">
+          <img src="archivos/bowling.png" class="card-img-top" alt="Bowling Park">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalUrban">
+          <img src="archivos/zonainfantil.png" class="card-img-top" alt="Urban Planet">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalVR">
+          <img src="archivos/cinesa.png" class="card-img-top" alt="Realidad Virtual">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modales -->
+  <div class="modal fade" id="modalBowling" tabindex="-1" aria-labelledby="modalBowlingLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalBowlingLabel">Bowling Park</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/bowling.jpg" class="img-fluid mb-3" alt="Bowling Park">
+          <p>Disfruta de partidas de bolos, máquinas arcade y diversión en familia.</p>
+          <a href="https://bowlingpark.es/" target="_blank" class="btn btn-outline-danger">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalUrban" tabindex="-1" aria-labelledby="modalUrbanLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalUrbanLabel">Urban Planet</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/urbanplanet.jpg" class="img-fluid mb-3" alt="Urban Planet">
+          <p>Salta sin parar en el parque de camas elásticas más grande de la zona.</p>
+          <a href="https://urbanplanetjump.es/" target="_blank" class="btn btn-outline-danger">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalVR" tabindex="-1" aria-labelledby="modalVRLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalVRLabel">Experiencias Interactivas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ratio ratio-16x9 mb-3">
+            <iframe src="https://www.youtube.com/embed/x8s4ENZAGvE" title="Vídeo Ocio" allowfullscreen></iframe>
+          </div>
+          <p>Sumérgete en experiencias de realidad aumentada para toda la familia.</p>
+          <a href="https://www.westfield.com/es/spain/parquesur" target="_blank" class="btn btn-outline-danger">Descúbrelo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5 mt-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <h4 class="fw-bold mb-3 brand-font">Westfield Parquesur</h4>
+          <p class="mb-2"><i class="fas fa-map-marker-alt me-2 text-danger"></i>Avenida de Gran Bretaña s/n</p>
+          <p class="mb-2">28916 Leganés, Madrid</p>
+          <p class="mb-3"><i class="fas fa-phone me-2 text-danger"></i>91 687 36 00</p>
+          <p><i class="fas fa-envelope me-2 text-danger"></i>info@westfield.com</p>
+          <a title="Badge Google Play Store" href="https://play.google.com/store/apps/details?id=com.unibail.splau" target="_blank" rel="noreferrer"><img alt="Splau App - CTA Google Play Store" loading="lazy" width="161" height="48" decoding="async" data-nimg="1" class="MainFooter_downloadLogo__q6odS" style="color:transparent" srcset="https://res.cloudinary.com/westfielddg/image/upload/fl_sanitize/q_auto/v1730127229/Westfield%20Website%20-%20Global%20Repository/01%20-%20CORPORATE%20ASSETS/Android%20and%20Apple%20badges/01%20-%20Google%20Play%20Store/GooglePlay_Badge_ES_Spanish.svg 1x, https://res.cloudinary.com/westfielddg/image/upload/fl_sanitize/q_auto/v1730127229/Westfield%20Website%20-%20Global%20Repository/01%20-%20CORPORATE%20ASSETS/Android%20and%20Apple%20badges/01%20-%20Google%20Play%20Store/GooglePlay_Badge_ES_Spanish.svg 2x" src="https://res.cloudinary.com/westfielddg/image/upload/fl_sanitize/q_auto/v1730127229/Westfield%20Website%20-%20Global%20Repository/01%20-%20CORPORATE%20ASSETS/Android%20and%20Apple%20badges/01%20-%20Google%20Play%20Store/GooglePlay_Badge_ES_Spanish.svg"></a>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="fw-bold mb-3">Enlaces</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="tiendas.html" class="text-white-50 text-decoration-none">Tiendas</a></li>
+            <li class="mb-2"><a href="restaurantes.html" class="text-white-50 text-decoration-none">Restaurantes</a></li>
+            <li class="mb-2"><a href="ocio.html" class="text-white-50 text-decoration-none">Ocio</a></li>
+            <li class="mb-2"><a href="cine.html" class="text-white-50 text-decoration-none">Cine</a></li>
+            <li class="mb-2"><a href="visitanos.html" class="text-white-50 text-decoration-none">Visítanos</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="fw-bold mb-3">Información</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="contacto.html" class="text-white-50 text-decoration-none">Contacto</a></li>
+            <li class="mb-2"><a href="aviso_legal.html" class="text-white-50 text-decoration-none">Aviso Legal</a></li>
+            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Política de Privacidad</a></li>
+            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Cookies</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5 class="fw-bold mb-3">Síguenos</h5>
+          <div class="d-flex gap-3 mb-4">
+            <a href="https://www.facebook.com/WestfieldParquesur/" class="text-white fs-4"><i class="fab fa-facebook-f"></i></a>            
+            <a href="https://www.instagram.com/westfieldparquesur/" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/13PQS" class="text-white fs-4"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@westfieldparquesur" class="text-white fs-4"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="mb-0">&copy; 2025 Westfield Parquesur. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0 small text-white-50">Desarrollado por estudiantes de Desarrollo Web</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
